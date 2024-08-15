@@ -1,0 +1,210 @@
+fileVersion: 1
+id: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+name: LOAD_CM_CFG_TPY_TASKPRIORITY_S_WS3D_FAST_PROD
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5d323e66-986c-4017-bd1c-36bd178215e5
+          stepCounter: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: TPY_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e035bba6-9765-443d-95d2-88cbe4a39527
+          stepCounter: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: TPY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3bc948b-00d9-457d-b0bb-9d8f2cb90607
+          stepCounter: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: TPY_DESCRIPTION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ae6dc587-ff33-4a64-950d-4a4662e4fe34
+          stepCounter: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: TPY_SORTORDER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 51af3e5f-ee15-4f40-8ba0-5650dedd8b7c
+          stepCounter: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: TPY_IMAGE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 14b7141a-19a9-4380-a12e-4fbc340c743e
+          stepCounter: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: TPY_IMAGELOC
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 75a23ad9-45c1-468a-bcc7-53d79b2df1b2
+          stepCounter: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: TPY_USERID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7e8ae5cd-ea17-4340-b0da-976418abac11
+          stepCounter: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: TPY_TIMESTAMP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5caa0942-08a1-4506-b586-94f412673fac
+          stepCounter: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: Record source
+        name: DSS_RECORD_SOURCE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b3f57b44-eead-4129-84f3-8c986ef247fd
+          stepCounter: 43830906-2f32-4e23-ad93-ea2d17d9bbc6
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: Date and time the row was loaded in the data vault
+        name: DSS_LOAD_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('SAMPLE', 'LOAD_CM_CFG_TPY_TASKPRIORITY_S_WS3D_FAST_PROD') }}
+  name: LOAD_CM_CFG_TPY_TASKPRIORITY_S_WS3D_FAST_PROD
+  schema: ""
+  sqlType: Source
+  table: LOAD_CM_CFG_TPY_TASKPRIORITY_S_WS3D_FAST_PROD
+  type: sourceInput
+  version: 1
+type: Node

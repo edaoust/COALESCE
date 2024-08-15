@@ -1,0 +1,932 @@
+fileVersion: 1
+id: f87fe9b3-2486-4dda-b342-13d13ebf434f
+name: LOAD_CM_OPT_PPV_POLICYPREMVALUES_S_WS3D_FAST_PROD
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 59b3b9cb-2937-4ec0-8fb1-41825160530f
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: PPV_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0afe5bca-bab8-4ae7-ba31-cc6117fd0cb8
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: PPV_STARTDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8416f132-bd79-491f-b243-ed3a15545c04
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: PPV_ENDDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 156cf028-6898-40f2-9886-ed4bfba4b3b6
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: PPV_TRXHDRID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: da179ac8-5485-4332-87ba-4edf84a8e1c6
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: PPV_WRITEOPT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fec2c250-6ba7-4707-98ba-fb2f3f04bc35
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: PPV_POLICYHDRID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9d840a06-099f-4754-b08c-388789489485
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_TAMRA7PAYPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2cfba6e5-5330-4469-aac0-57e3ad23962e
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_TAMRA7PAYACCTVALUE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e0075c76-1b50-439d-a22b-d5f105ecb885
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: PPV_TAMRATESTSTARTDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b3d56035-f8f7-4e47-8f69-84e3c1ea8edb
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_GUIDELINELEVELPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c8d53519-3452-4c7a-9774-c6f19e5bca2e
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_GUIDELINESINGLEPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7095bb99-fdbc-4830-98df-b0a344958d60
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_MINPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6a1d1d51-43bf-4a22-8935-d0a52ed64b78
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_TAMRA7PAYNSP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a40554ed-6120-48e2-9f50-0f4c3b20b0a5
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_TAMRAUNADJ7PAYPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 95922a5a-978d-4f9f-818c-d9ef54ae4ae1
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_PREMIUM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 01928596-a018-4ade-a3a0-b225f79bd248
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_TARGETPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8b5ade29-2d1b-443c-9137-436223dba006
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_COMMTARGET
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2968c8e0-a27a-4ba8-b2e0-c3d42191d9d9
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_MODALPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9ff50975-4894-4c7f-87b9-6eb4605ad3e2
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: PPV_PAYMENTMODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8d8f2c6c-1170-4888-ba60-c0796b5ee5a5
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_ANNUALPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d072d378-2924-456c-981c-942bc5e67998
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: PPV_BILLINGTYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c290da10-2095-49e8-95ff-7e11067bfdce
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_SPECIALRISKPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 52a9c5ad-557d-4e38-9723-632bde702ad0
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_TAMRA7PAYANNFACTOR
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9ae8049d-a7c5-42fe-a91d-ef57caad1dab
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_TAMRARIDER7PAY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ad5bf9f4-afea-4a31-b74c-6409f47ebcdc
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_TAMRAFACEAMOUNT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a526b645-192b-4593-89a9-b191b67addc9
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_MODALPREMOLD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 966293ea-dcda-47cb-ab60-d22bc22afdf3
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: PPV_PREMCHANGEDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ee46d30f-7000-4961-96fd-850d5aef91e1
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: PPV_NLGRIDERINDICATOR
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4330ee6d-bd4b-4e87-95d7-242674b0376b
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_NLGPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0e806da1-9a96-4007-a3bd-808f49994fdb
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_MINTOISSUEPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 54493f37-8e72-49c6-979f-97c78280dc7e
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_MODALNLGPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: df3f5ab3-04cf-42c6-b4a0-14c947962570
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_COMMADJTARGET
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9d13a467-e493-4388-a334-1cf2f2ee9ade
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_MODALMINPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 898ca2a6-6004-476a-a3e2-9fabe01641f6
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_PUARANNUALPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fe64ee11-531b-4226-a758-b86fa03cdbe7
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_PUARMODALPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6ba0dcfc-6a84-4d5d-9ce4-1c812e4a08e5
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_BASEMODALPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 442086e8-107d-4e6d-8e85-5026536b8475
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_BASEANNUALPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 91f52092-ebcb-46bc-944e-effb5321b8cf
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_TOTALANNUALPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 72d30246-d1f4-4e40-9763-d0b0cd06a68a
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_SEMIANNUALPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 05fa104a-56ee-4327-803a-85b7226963a8
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_QUARTERLYPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 567c3797-7bec-4cdb-97cc-47aea0a3f516
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_MONTHLYPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1edc9a69-2685-42c2-9737-958a8242ed10
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_ANNUALIZEDPREM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1f3d1e46-5956-4c2a-9466-f5335c3be0e3
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: PPV_INITIALPAIDTODATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f945ace1-a966-47d4-9e2a-1428eb90c178
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: PPV_INITIALPAYMENTAMT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2ccab39d-e7b2-4f09-b436-fee0c81dc4b1
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: PPV_USERID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c349d4d1-e215-48d4-92e8-96e1f90b5339
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: PPV_TIMESTAMP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fd371190-07a4-4a72-8463-ad66ca6cbf7b
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: Record source
+        name: DSS_RECORD_SOURCE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f3b09567-5c47-4f15-9400-8409aa7b8065
+          stepCounter: f87fe9b3-2486-4dda-b342-13d13ebf434f
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: Date and time the row was loaded in the data vault
+        name: DSS_LOAD_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('SAMPLE', 'LOAD_CM_OPT_PPV_POLICYPREMVALUES_S_WS3D_FAST_PROD') }}
+  name: LOAD_CM_OPT_PPV_POLICYPREMVALUES_S_WS3D_FAST_PROD
+  schema: ""
+  sqlType: Source
+  table: LOAD_CM_OPT_PPV_POLICYPREMVALUES_S_WS3D_FAST_PROD
+  type: sourceInput
+  version: 1
+type: Node
