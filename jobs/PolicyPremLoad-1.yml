@@ -1,0 +1,9 @@
+excludeSelector: ""
+fileVersion: 1
+id: "1"
+includeSelector: |+
+  +{ location: WORK name: FCT*}
+
+name: PolicyPremLoad
+type: Job
+version: 2
