@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "2"
+mappingDefinitions:
+  SAMPLE:
+    database: DEV
+    schema: DEV_LOAD
+  WORK:
+    database: DEV
+    schema: COALESCE_POC
+name: Prod
+type: Environment
