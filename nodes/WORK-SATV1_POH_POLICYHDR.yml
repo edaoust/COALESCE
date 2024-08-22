@@ -7,7 +7,7 @@ operation:
     preSQL: ""
   database: ""
   deployEnabled: true
-  description: ""
+  description: policy satellite
   isMultisource: false
   locationName: WORK
   materializationType: view
@@ -90,7 +90,7 @@ operation:
           stepCounter: 7074fcba-2cb0-437b-bf9f-e1646b6a41c8
         config: {}
         dataType: VARCHAR(36)
-        description: ""
+        description: "Policy Issue State "
         name: POH_ISSUESTATE
         nullable: true
         sourceColumnReferences:
