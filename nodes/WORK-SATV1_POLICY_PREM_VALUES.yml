@@ -1,0 +1,824 @@
+fileVersion: 1
+id: 1f514e07-820c-4157-94d3-f17577fc9e29
+name: SATV1_POLICY_PREM_VALUES
+operation:
+  config:
+    postSQL: ""
+    preSQL: ""
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1c7257db-2135-424f-9559-22d7e6566547
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: PPV_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6cfdd24f-9cf0-4f61-85a5-9e46ef700277
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 67a584a6-6fa7-4984-b19a-730bd43c9895
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: PPV_STARTDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b1610ec5-b2f6-4b19-acc6-6177c78c183e
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 29a6a237-8248-42a6-90d4-aa0216fdbdba
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: PPV_ENDDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6e0db418-e5ca-44ad-8974-4257adc88384
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2a5209f7-3775-4602-ab0b-03e2875543c4
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: PPV_TRXHDRID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 094e7ad1-82fb-47cb-9153-40bacae27678
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a8143c1e-a3a6-4394-822c-7616999e852d
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: PPV_WRITEOPT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: aabc54e4-acd1-4855-b235-2598f34d7ebf
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 31ac91cc-d396-493e-815f-e83d7e37e741
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: PPV_POLICYHDRID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1a2246ad-0a1b-460a-8291-d20455bbd759
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d3657c40-4411-4a85-9b0f-9bd50e559235
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_TAMRA7PAYPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 66cbabf6-ba6b-44de-81c4-7e9c08390fe4
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e89de70-aee8-4add-9ec2-e1ffe0f44096
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_TAMRA7PAYACCTVALUE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: bc1416d9-6aa1-49c6-a886-d4eb233fa456
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b84a42f6-3ad4-4c95-9690-589fbb2906a4
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: PPV_TAMRATESTSTARTDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a3bfa6b2-7209-48dd-ac05-6547c85a1b4a
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e8e89a20-9813-4325-a04a-44f4eb9177c3
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_GUIDELINELEVELPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ce8d4cf4-5a70-4f0b-bc29-62087b921631
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4e3ea063-f4ad-439d-bec0-a150560eb7e0
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_GUIDELINESINGLEPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7a91fba8-df9b-4495-b5dc-cec8d28ec92a
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 921f7ad8-83d5-41c0-99ab-881644d9cd08
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_MINPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3ed49198-98ae-4219-87df-7884cdb88f11
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a39b2669-b598-4de1-822e-7f9a9e9cb1f7
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_TAMRA7PAYNSP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 286e465c-5517-47a2-93d3-61cac25b1d74
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0f4b1dea-468a-4c6d-89f0-a46b6df0748b
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_TAMRAUNADJ7PAYPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 92024b72-f3f5-4a0e-bac4-77b1e069d793
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f089d734-df03-4187-bc60-0d209da33fac
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_PREMIUM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1dbcf13d-3d58-4dcf-97d7-1de0be938482
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d21754ef-6418-4640-aa15-aef020f106f9
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_TARGETPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a19a0be9-8a0a-4c6e-9ea1-01d74b76a280
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 30049309-102a-4ade-a673-3ed7ea2ca75f
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_COMMTARGET
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0e12c3ff-5396-4d89-86c9-58c71cc59412
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8c7d67ec-63cd-4f77-8577-38603fdd90b2
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_MODALPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3c1bb50d-329c-41fa-b381-efc5c200cd52
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65ab6a22-8675-4229-8e8d-0710b45583c3
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: PPV_PAYMENTMODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7b8f6d83-0d29-4fea-baf0-e63f53bc4cc1
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 106efa8e-dcfc-4a19-afa4-6e4f89f58346
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_ANNUALPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 391a0b6d-08af-4e9d-8654-fa4bf26a7ecd
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ea0ab4d2-5512-4f1d-87f6-996e079817f4
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: PPV_BILLINGTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b014244b-70ad-468d-b2a8-d99f60ce93a7
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f9892108-6999-4be7-931b-6e96704115b9
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_SPECIALRISKPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d377f5c4-8af9-4eb6-b7f3-4325bde04990
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 213f2edd-6d4f-4912-bf67-3c525e5e0b18
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_TAMRA7PAYANNFACTOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e676b966-cef8-4c29-b6c8-b5be2c04faa5
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7f46b9ee-21f0-4434-a693-9dda35749699
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_TAMRARIDER7PAY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d2ad865a-be99-4daa-bbe5-2e3a8469497f
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 848c3812-e49b-4059-ae59-7d5732254aa5
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_TAMRAFACEAMOUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 23b2234f-6397-45e7-8fb5-8c4b7b564327
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7e5599e5-7f6c-4f54-9f5a-eebc09632cf1
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_MODALPREMOLD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f0fe31a1-5e3a-42cb-ab0d-2cb06efd1d21
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f22d21aa-e001-46dc-89ef-f2a3953d266f
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: PPV_PREMCHANGEDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 909d5b8a-8295-421a-b442-498541eae5ca
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 20beccce-3450-4c13-86e6-9e3f6a916261
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: PPV_NLGRIDERINDICATOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e1c3fa84-8abc-4ea0-bbd1-45fd13ff007c
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: af5f842f-4a79-4397-8b28-f2a14e96cd38
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_NLGPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7988a63f-b9a7-46ef-b220-2c9abff4b5f1
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2101fcd0-95b7-4c37-812c-28fc9f3f7656
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_MINTOISSUEPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1e67373e-2c48-462b-a539-2b44ae83277d
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c4749620-65eb-43da-89bd-5337b676b22d
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_MODALNLGPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 78c03ca0-73b9-4c91-a5a0-3e30922effeb
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b7977775-b164-4e70-8377-64eda23fd2df
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_COMMADJTARGET
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f22ee661-ab91-496f-b5ec-9ea3af067000
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f1eba499-4bc0-49bf-832a-3e0da28e8d72
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_MODALMINPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 87e5cd29-5702-4c0d-9acb-9ef31ddcdca0
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3bf89fca-f42c-474d-bdc4-c548c17daaee
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_PUARANNUALPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 49772f0f-f57e-4409-a709-9456a72f01d1
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 415d8649-ed3b-4eb5-875f-2e5574fad80e
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_PUARMODALPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2c4d81cf-7313-4d42-9900-c7474e09d790
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d6fcd350-7c45-4680-9aa8-1802ecad01cb
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_BASEMODALPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 09ed524c-ed8b-4986-b6fe-cc5033dc5b0e
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5630475b-08c9-43f3-9139-a3e40c78aa2b
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_BASEANNUALPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 543c4e02-c92a-4fd3-b4fe-3c3fd0dca06f
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c4fc77ed-0e3e-446b-8f4a-c64280c72bac
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_TOTALANNUALPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3f9c5fe6-3c7b-4e2e-8cd5-1709032ff565
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: dcff711b-cc11-45bc-aebd-7bc22af1c9c8
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_SEMIANNUALPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f095979c-1cb7-499f-98ad-c3cc1decf716
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 735f9a6e-c13d-45ed-8291-9f8af1cb3978
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_QUARTERLYPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: df7a62ce-b27a-4117-b5a4-0a1fe9822051
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1076a0b1-a8d7-40c5-82a0-32f5f3e7c522
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_MONTHLYPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: bbaeb469-b453-4230-b8b7-3afddabc1322
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1aee351e-9f4c-4545-8c86-9dec99f824d7
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_ANNUALIZEDPREM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4c66e72f-b2cb-4e5e-9546-173c95cdc3bb
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 94dbd9a5-fc9e-4669-bc63-d144fb350534
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: PPV_INITIALPAIDTODATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c6855388-c38d-4864-8fc1-122e1407d20a
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 81262ae3-e6fb-49dc-bc76-56713ff95ce8
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: PPV_INITIALPAYMENTAMT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 149f834e-2955-4d93-b5aa-e6e012f11b68
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6dd9beba-fe55-4bae-987b-5b57f19f8551
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: PPV_USERID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5cc71091-c91b-47ae-bc03-1e6add7f7fc1
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3e44841b-cfcc-43c5-96a4-8ec0807ba1ed
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: PPV_TIMESTAMP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 09febc5d-5691-4095-ae63-e24a236dacba
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 847f8511-65b3-469b-8c2a-9e39920060b2
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: VARCHAR(255)
+        description: Record source
+        name: DSS_RECORD_SOURCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fdebc1ba-919c-4bba-a2cf-ed984fe941de
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c067aae9-c133-45e6-a741-0103336d9c83
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: Date and time the row was loaded in the data vault
+        name: DSS_LOAD_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e10073d3-4ff6-4666-8e79-634036de4741
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 559c75ab-4aff-4ea6-9622-ee1eae5d01a0
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: TIMESTAMP
+        description: The Load Date Timestamp (LDTS) describes when this data first arrived in the Data Warehouse.
+        name: LDTS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e9ea79f7-a5df-4276-8627-6cc3121e19cd
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e3204f7e-6aaa-4776-9e47-0acf8b376537
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: STRING
+        description: The Record Source (RSRC) describes the source of this data.
+        name: RSRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c1ab8026-c1dd-497b-8860-3133d334b4bb
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 66acadda-b6ec-4cc8-8f6c-e342b0742d57
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config:
+          is_hk: true
+        dataType: STRING
+        description: ""
+        name: H_PPV_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 62fba108-cd6a-4f8a-9f5e-c77adda1f784
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a59ffe2b-8006-4018-be87-7b2946903e72
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: STRING
+        description: ""
+        name: H_PPV_STARTDATE_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9f62b365-2ac4-4b6a-99fa-8e96948cd901
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d6abe026-73bc-44a0-8592-f7415c0dcbcb
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: STRING
+        description: ""
+        name: S_PPV_HASH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c1118f6b-5316-43a2-a734-842f036276f8
+                stepCounter: 86d37b1d-80e1-459f-a1aa-0983753322d7
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 44968919-84ba-4975-adb7-98955e99c354
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        is_system_ledts: true
+        name: LEDTS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: |-
+              COALESCE(LEAD("{{ datavault4coalesce.config.ldts_alias }}" - INTERVAL '1 MICROSECOND') 
+              OVER (PARTITION BY "{{ get_value_by_column_attribute("is_hk") }}" 
+              ORDER BY "{{ datavault4coalesce.config.ldts_alias }}"), {{ datavault4coalesce__string_to_timestamp(datavault4coalesce.config.timestamp_format, datavault4coalesce.config.end_of_all_times) }})
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 90bad1d2-6d85-453e-8ce2-e35ac93747e5
+          stepCounter: 1f514e07-820c-4157-94d3-f17577fc9e29
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        is_system_current_col: true
+        name: IS_CURRENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: |-
+              CASE 
+                WHEN 
+                  LEAD("{{ datavault4coalesce.config.ldts_alias }}" - INTERVAL '1 MICROSECOND') 
+                  OVER (PARTITION BY "{{ get_value_by_column_attribute("is_hk") }}" 
+                  ORDER BY "{{ datavault4coalesce.config.ldts_alias }}") IS NULL 
+                THEN TRUE 
+                ELSE FALSE 
+              END
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: SATV0_POLICY_PREM_VALUES
+        join:
+          joinCondition: FROM {{ ref('WORK', 'SATV0_POLICY_PREM_VALUES') }} "SATV0_POLICY_PREM_VALUES"
+        name: SATV1_POLICY_PREM_VALUES
+        noLinkRefs: []
+  name: SATV1_POLICY_PREM_VALUES
+  overrideSQL: false
+  schema: ""
+  sqlType: dv:::9
+  type: sql
+  version: 1
+type: Node

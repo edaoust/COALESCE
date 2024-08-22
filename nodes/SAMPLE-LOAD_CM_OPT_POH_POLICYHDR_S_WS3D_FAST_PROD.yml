@@ -1,0 +1,1388 @@
+fileVersion: 1
+id: 17bf8149-cfac-415a-b4ee-f2afe32501de
+name: LOAD_CM_OPT_POH_POLICYHDR_S_WS3D_FAST_PROD
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2439935c-52a4-4ee2-8b3e-2e220580c6d6
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 84a7ec53-0082-4ce6-a778-19441e9a10b5
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_POLICYPREFIX
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ac3b6785-5c3f-47a2-b340-3564d86762ef
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_POLICYNUMBER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f1f5ce56-167a-4609-aa05-217bf518cc2b
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_DTCCDISTTRXIDNUM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 724d2388-ccea-4ef0-998c-2a59441ad5de
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_STATUS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e26de8ef-0b03-4ab1-80e2-a358a28e5749
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_ISSUESTATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 40a1293f-f92d-46a0-af51-e735c46a8e21
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_ISSUECOUNTRY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 23a7159c-695c-4854-a855-4d9d79201937
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: POH_APPRECEIVEDDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2c37dcb3-f1f1-4e77-bd42-fbab9e0b9156
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: POH_APPLICATIONDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a59264b2-4a29-48c2-b37c-7d8bbe4b3cd9
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_QUALIFIED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0d79f105-5c6d-4327-b7c1-8bbc0e333ff8
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: POH_ROTHIRAINCEPTIONDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 23750671-b924-4dd0-956e-55e8f2390cfb
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_PRODMODELID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5eed45d4-e690-4897-bb0c-fedf39b3b941
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_LOB
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fab7376d-3748-4a2c-8f6c-05a7aa8cfd68
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_COMPANYID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8d466d9e-8007-4ccc-9f85-a40146b850b2
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_EXCHANGETYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 66ee7eca-7b33-467a-888f-86f26707e88e
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: POH_POLICYEFFDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 38902b2b-a430-444d-b08f-e191aa9f6773
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_TAMRATESTIND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 814bf39b-98e7-49af-9aa7-31bebd351741
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_IRC7702TEST
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c42436dc-1b06-4345-8704-eee63c747cc9
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_TSA
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 06968c22-f076-47a2-b125-66049bcb85b6
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_COMMOPTIONTYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6b128ae6-c00b-4f7f-a562-5e78e9b31e1a
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_COMMINTRATETYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5c4f17bd-a07f-4ca4-97b0-573f9a4f5c37
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_FIXEDINDEXEDMODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4822cba3-c47d-4304-b649-6c95a664a2f5
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_MODERULE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 430bb6d9-808a-42b1-baf1-2a3c0f190fe9
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_QUALIFIEDCODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b596efc0-800f-4c5d-b682-6982c996ba45
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_ORIGINALPOLICYNUMBER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 89bf286f-dd2c-4cf9-90a8-2f310f7ce13f
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_CERTIFICATESUFFIX
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f20eb225-69ac-4049-abb7-e62622c48c62
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_RESIDENTSTATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 91cd4eda-6d26-412c-a372-67cd60235b39
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_EXCHANGEFLAG
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7ad662ac-aa22-44d1-8c7c-f38cc8a1d1ad
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_BROKERAGEACCOUNT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 130cf285-5f81-49f8-8262-348c6ee1e75a
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_MARKETSEGMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4cc51da2-1696-4ea1-b502-5f23401278ce
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_SPECIALMARKET
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a1568070-4580-4c0f-9e90-922c8f198890
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_CONTRIBUTORTYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6edce72e-1438-4f3c-a9c4-c99e586779d7
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_POLICYSWITCH
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2cccfd9e-0b2d-4896-aabc-4377e5b85109
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_PLANOPTION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c34137fd-d3f9-4ef5-bb15-777686529bce
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_PREVENTMEC
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a4a43431-d49a-43d3-a053-aeee97d5fe2e
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_APPSIGNCITY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 926bf661-c644-4c71-a65f-af5a60e1cf12
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_APPSIGNSTATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6553cd29-cf63-48ec-adc2-2f7a1e4decdf
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_MEMBERSHIPNUM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9443ae6d-e83d-4f6b-bdde-4b662f2b8d66
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_ANNUITYTYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ca1e0261-d007-4de6-8a24-9e0968c20584
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_AGENTMATCHING
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 917e7895-1b51-412f-9fdb-94feb676f712
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_SYSTEMATICWITHDRAWAL
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0bccfc43-f1b1-40cf-ad24-973addeae67f
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_SPECIALREQUEST
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0ae5fe92-da3c-4cc7-97e9-18e00a5eac2c
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_TIA90DAYS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 487e7564-9a3a-413b-be2a-07caf9f9fe82
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_TIA2YEARS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2681eeca-3dc3-4876-b6d7-60e416c59351
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POH_FREELOOKPERIOD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 429058f7-fb24-4daf-963f-1f72858711fe
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_APPTYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3dc84df4-1701-497b-a70b-033c002e2c18
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: POH_REPLACEMENTPERCENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 06b84f71-974c-4c02-960c-9f517f948c8a
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_MODEOFSETTLEMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 14154a10-ca6a-4f8f-8fb5-77e5e802c658
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: POH_EXCHANGEBASIS1035
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fbc417e8-05ce-466d-9013-441f26a6fc65
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: POH_EXCHANGEPREM1035EXT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e6fea72c-d136-4fab-9705-f817b8deed65
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: POH_EXCHANGEPREM1035INT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c2a3f4e9-3d52-499c-9ba4-ed7997935f83
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_PRIORMECSTATUS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0b03b7a9-5d54-4f5a-9c20-ba8c0ee2c763
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: POH_RATELOCKEFFECTIVEDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65936099-7c0e-4be5-89fb-7dcc1d80c668
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_PRODUCTCUSIP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cce61775-2e6c-4af7-845e-e6a3a4a3f52f
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: POH_FREELOOKENDDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 82002e73-b303-4576-bf2c-163d605d87a6
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: POH_FREELOOKSTARTDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ce5b7f3c-8cb9-43ac-bfc7-b42d2c790414
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_LASTPROCESSEDTRXHDRID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5266c58f-be0c-4d44-baeb-5995b433aa6f
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_LSNUMBER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e9ec5e02-b895-4516-8a1d-7fec9ec1718d
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_PRODUCERCODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 70108dbf-df6b-4757-a7df-518bc6e1ee2d
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_UWTYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9eee4fa2-40e6-491d-96af-82d86bf8077a
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_PRODUCERNAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fa4b86a8-c000-4ce0-a1fe-42226330f015
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_REPLACEMENTTYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3064034d-2fd1-4ca0-aa75-2831a9c8e4ab
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: POH_CONVERSIONCREDITAMT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b95462c4-f506-4051-85d5-808ec7f7fc26
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: POH_LAPIEXTRACTACTIVITY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a9f88800-a6e1-431e-aa0f-dca3725571ea
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: POH_USERID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7b0328a4-7a0b-418d-ad82-79a0137c3543
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: ""
+        name: POH_TIMESTAMP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 86e1469e-d1bb-4115-ac16-1e2c3d293a2d
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: POH_TRANSFERREDFAIRMARKETVALUE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 02892ea1-c0a3-4992-aa18-176cefb89b10
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: POH_TRANSFERREDYTDWITHDRAWAL
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 47cef82d-b17d-4722-88c8-37f01b601924
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: POH_EMPLOYEEINDICATOR
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 50dc953e-87fb-4a74-ac09-b15cb061d49e
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: POH_ISCONVERTED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1ca2d7f6-1f6b-43a9-99f6-7faa9ff49211
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: Record source
+        name: DSS_RECORD_SOURCE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 98af1e66-1ae6-4d61-aec3-c0e02947dd67
+          stepCounter: 17bf8149-cfac-415a-b4ee-f2afe32501de
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        defaultValue: ""
+        description: Date and time the row was loaded in the data vault
+        name: DSS_LOAD_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('SAMPLE', 'LOAD_CM_OPT_POH_POLICYHDR_S_WS3D_FAST_PROD') }}
+  name: LOAD_CM_OPT_POH_POLICYHDR_S_WS3D_FAST_PROD
+  schema: ""
+  sqlType: Source
+  table: LOAD_CM_OPT_POH_POLICYHDR_S_WS3D_FAST_PROD
+  type: sourceInput
+  version: 1
+type: Node

@@ -1,0 +1,1076 @@
+fileVersion: 1
+id: 16ceacda-9bce-4f1e-9634-42e56bce9319
+name: SATV0_POH_POLICYHDR
+operation:
+  config:
+    disable_hwm: false
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 274fb4e5-2772-4907-9d0c-661ce8fcd2b2
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: de150809-fd4b-403d-8e55-e5c0448da503
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9e2289d3-59a4-407c-97e9-ab08fd040fbd
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_POLICYPREFIX
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b7dcf26b-5d8b-41e8-b68a-8aaf90a99758
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1dceed82-ca3f-48c7-b94d-7d8467f42471
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_POLICYNUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e161208e-9349-452b-bf92-35270029d10a
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b0b7e826-3492-4120-81aa-4adb6fc10300
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_DTCCDISTTRXIDNUM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ffa39b5b-d232-4dec-b103-b8cd6daf1904
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5c23639d-a6c5-4b2d-a37e-edfa40e93bfe
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_STATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ac224630-6fb8-49d0-b526-8e9442214070
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d8e95306-5dc1-403b-af9a-f3156f82cd64
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_ISSUESTATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b267a02a-9fa3-4d57-82c8-b005a85f7f19
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 95d3fa28-02e2-41f7-868f-e3bccf045798
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_ISSUECOUNTRY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9a387acd-a1a2-4027-af91-58659cdc0f83
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 22d6900e-672a-4780-9eb9-6a1a24fd2c6d
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: POH_APPRECEIVEDDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 02a149f2-9b83-43e7-989d-0e625ba76cd6
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b3061d27-ec7e-44e4-982e-5ba914e23a27
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: POH_APPLICATIONDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 96379c7a-49da-4ad4-9070-bd745181f80f
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 33f5158e-ee14-4893-9ee7-080cf0f04b18
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_QUALIFIED
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f6f6f8f2-9447-4f10-a02a-593f8fe53d15
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f7b1ed7a-fa01-43d9-a00d-ca91ea9a7391
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: POH_ROTHIRAINCEPTIONDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2b0b4e68-2f07-4141-901d-937e93b0dd69
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c5bc89f6-498b-4429-876d-5ffda168a78c
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_PRODMODELID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7e6f5112-5bc7-477a-ab30-f721b1af0364
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f7d9b159-c114-4d4c-aba9-cf41113f3624
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_LOB
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6de7db40-e293-4482-b242-12f67cd56bc5
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d9c01d0e-235f-476f-9bcc-981711f7aad4
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_COMPANYID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 153c8cc4-88b1-482b-9358-97b47aa352b3
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a14b69d3-2fa9-4b0c-be5c-0611cb108519
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_EXCHANGETYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ea352a3d-027f-43db-b217-862a26bb3bfb
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3435269c-6d49-4ff5-86a6-3dda935c63f4
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: POH_POLICYEFFDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 35c7e035-3d08-4964-a126-cefe44ef4e75
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9f9fbaff-ad7c-496e-9c0b-ce649358f69e
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_TAMRATESTIND
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3c396965-81a6-4046-b95f-ee05d0df56b1
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 094e2e1b-bfc4-41c8-a86e-99e39871196c
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_IRC7702TEST
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e5240d27-3a26-4f32-8046-78e2ea0e8abb
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 136e8e32-a036-4fb0-b543-29602c571bd4
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_TSA
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a38c3ca7-8cbe-4ce9-a55b-d99d26c4a31f
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1a063736-cdbc-4efb-9807-326fc6a5eb72
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_COMMOPTIONTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 153de6c1-963a-4389-b194-c7b3b78305a1
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 02600387-1374-4fb3-b388-66c6ed43a851
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_COMMINTRATETYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 376609cc-805e-4c2b-b819-4ac7d21cbd05
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c70223f8-d171-4e97-9d8c-82650cc8ca17
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_FIXEDINDEXEDMODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b8b7028b-7f66-4a05-878c-3c58c5789580
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9bd02917-4f40-4a1c-83e9-99e3144874aa
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_MODERULE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0b635097-d480-48af-bcfe-ef3dcc75ca27
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bb782d2c-76b3-436b-a101-f0b682cdac1b
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_QUALIFIEDCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5797875a-8652-4869-a249-33a639ffe73b
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2ef832ea-7048-4f16-bd5c-40e3a8f29aa4
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_ORIGINALPOLICYNUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d766216f-8397-4a46-b58f-c483316cbf50
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 93719cd7-8893-40d1-b8f9-ce11868d92bc
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_CERTIFICATESUFFIX
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8e4c964c-2326-413c-8ba2-7d3df34100e7
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0be28d35-db81-4083-8a55-c0e0abc3b4f5
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_RESIDENTSTATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cf45f3df-80c6-47b2-8227-e4406d57121b
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 27f36294-eb9d-4b4a-9197-0b018b896cc4
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_EXCHANGEFLAG
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a9c5bc5b-a7c5-4965-b7f4-682b722bb449
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 505d5586-8a30-4ae3-9649-e7b40bbec4fa
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_BROKERAGEACCOUNT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6ef51658-35d5-49c4-96bb-ef1d10092b86
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: aa9c1d02-2a8b-4efd-b68e-5a015e15e2d8
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_MARKETSEGMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 724fd35a-73e5-4694-b023-2b306b0c6e92
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 168c6398-8520-40ea-ada4-1b134ef38597
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_SPECIALMARKET
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c885f48e-b4aa-4ce9-b44f-222fd45acd6e
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7814e3e6-c8a9-4545-aa45-f11a2f72f23e
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_CONTRIBUTORTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d4d583b6-fa88-42a4-89e9-91b536ffbafd
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cecc5357-f22e-4800-8d07-7bbe0c1d6a00
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_POLICYSWITCH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d7c07f7e-eacd-4e50-9d8d-8d1e97d81c96
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 54d5a282-ae63-45d5-9e16-69fe1caa9a32
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_PLANOPTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1887facf-44da-4ad5-abf8-0c97be355de5
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8d5c1e26-f8d2-4c88-a566-dcd27af288bf
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_PREVENTMEC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1b0f7857-9337-41a4-bef6-9cdf32604b72
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c6218134-8b17-4e9b-83ec-641b344d7425
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_APPSIGNCITY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 33195859-a66d-49a6-8be2-5608eb96ce17
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8ff66994-d526-47d2-8938-f635c1bb2a71
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_APPSIGNSTATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ebc64338-4a50-4c67-bfdb-ce6413277499
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e404adb3-28cd-4381-89d6-a9ce66d61e56
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_MEMBERSHIPNUM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5acff707-8e09-4918-ba8d-cfa7ab8dc5b6
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7df6a00c-c077-411d-90d9-6075364767a7
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_ANNUITYTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d727ab9c-b402-4201-999c-968f30553a42
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f68e3a7c-2e7b-4351-9157-71b8da41ce63
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_AGENTMATCHING
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2b88be79-2757-499f-877b-2400ca6cfdbd
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5053c614-8098-488c-aa5f-67b039cf2c6e
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_SYSTEMATICWITHDRAWAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 432c5bea-8755-4f91-8670-925fa96c284d
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bed56c64-638f-43e7-b33c-c5ef659df2f7
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_SPECIALREQUEST
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 055e2126-76fa-48e8-88c7-d8d14b8be924
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f82d4254-30fa-489e-b3e7-6dc618cf234f
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_TIA90DAYS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1943167b-0bf2-4a9b-b540-1ec180d41be0
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8f8a1190-5bec-46ef-8240-98572a7750f5
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_TIA2YEARS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9ea09151-340d-4fb6-9f6a-d604283004bd
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5f865011-3f4c-421f-8de3-f00a3414925e
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POH_FREELOOKPERIOD
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 19dbbd5f-c962-4061-a680-389335826a00
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8db0234e-a430-4e29-93b7-607061824336
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_APPTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f7d24ce1-1a3f-4372-a351-045dc2691344
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a484b316-685e-4d8c-9216-1f2135a7449e
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: POH_REPLACEMENTPERCENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 34d5fb1e-d68b-4aaa-b423-dda352189649
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 623c04eb-380b-46c7-a49b-b848e8e161f2
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_MODEOFSETTLEMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e897703a-0dca-4f40-8a63-dce0b0202332
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 364cb621-9768-430c-9928-8051c8f7b684
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: POH_EXCHANGEBASIS1035
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fc3b028b-b461-48bb-b3e3-41e234483cc9
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b7ea56c3-7c2b-4080-96a1-f7ce24a451a0
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: POH_EXCHANGEPREM1035EXT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 114b0f97-da43-4fcd-9971-b2288091a61f
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f1e2952d-5984-408e-8bb0-e0255448de67
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: POH_EXCHANGEPREM1035INT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 97f80aca-ce9e-4ec9-bb46-e953d7f5f379
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 10841127-84d9-4478-8822-24b8ddc12e51
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_PRIORMECSTATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2f4a8d60-5bf6-4288-8616-a3e2f60ee2ca
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f06f9787-ce93-4c11-affd-d4de06ce9c15
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: POH_RATELOCKEFFECTIVEDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 083d298e-cd85-4c3c-8cf5-820b7de3f223
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f5166d54-d265-42b9-9981-a7f0b836fe43
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_PRODUCTCUSIP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 38937f20-d849-4812-9141-8d43331a345f
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 75f16a7f-c78f-4b4f-89aa-cf4ca758a53e
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: POH_FREELOOKENDDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3fd32af1-4b1e-4e5a-84c6-051db84ea4a5
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: db4d27ef-a296-4b9b-aed8-88185dee8c9a
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: POH_FREELOOKSTARTDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1eed5869-1609-4822-97d4-9c4b76d2784b
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fa245551-0964-45ff-8365-184f77b73234
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_LASTPROCESSEDTRXHDRID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 588d1723-d08a-47bb-af81-4b2a0aaeabff
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7035a20c-0eed-4fe9-9050-8e67b3dc1f8c
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_LSNUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ad87f83a-e1ed-4454-8556-52b7d879e8fa
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 002491bf-286d-4491-8764-84822edac33b
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_PRODUCERCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d0860fa5-5743-4251-b9e9-cba7696d48f6
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5e0a723a-97f7-4f82-aca8-5debb3cedf26
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_UWTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f9916517-f97a-4eca-8245-461d512c381c
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c1c6c64c-03b9-45da-87c3-1f01949f2b25
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_PRODUCERNAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3179c46c-5af8-4004-bbde-ce75a2bb844a
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 85284d37-1528-4438-9f97-ca5789153706
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_REPLACEMENTTYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ec24489f-844b-4e4d-8b55-13ea4d5235a5
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 03d633c0-12d8-434f-b645-be883a888cdc
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: POH_CONVERSIONCREDITAMT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 16e17df1-f026-48e5-bd32-d7f41dc6531b
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 44b0e7d0-ca42-4bbe-9b2c-d6c810a91637
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_LAPIEXTRACTACTIVITY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5a098089-67e1-418a-86b6-b6636639c393
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 19271b26-6e9f-415a-869f-99c00621914d
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_USERID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2ab2a417-2f4d-4c74-829a-50d6c488d3e7
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6c8335f4-cfb8-4b18-8733-084abcb1bcd6
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: TIMESTAMP_NTZ(3)
+        description: ""
+        name: POH_TIMESTAMP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e818fd8a-23a2-4df5-99e9-1e8340b7c141
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0136882f-b43f-49d9-b61b-7d66366c6e00
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: POH_TRANSFERREDFAIRMARKETVALUE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6670db9f-efb8-47f0-afba-c4d8d8fedcb8
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 962fbcbb-dd5f-41ce-8ac8-a18dfd5c80fd
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: POH_TRANSFERREDYTDWITHDRAWAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7631fd2e-67c2-4f46-a74c-9d98dcc90df7
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0b30fea8-b337-40c8-8fbb-8b43bdeba204
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(255)
+        description: ""
+        name: POH_EMPLOYEEINDICATOR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 01375255-1026-479e-b597-edf66e6f8550
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c78e2d56-286b-4846-9d7e-f0a6e15caa9b
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: VARCHAR(255)
+        description: ""
+        name: POH_ISCONVERTED
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 59372dea-576c-4d03-b42d-287981584e1f
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 792ea327-1548-4d6c-88dd-579f9d7524c4
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: TIMESTAMP
+        description: The Load Date Timestamp (LDTS) describes when this data first arrived in the Data Warehouse.
+        name: LDTS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a04365b7-833a-4f39-a4ed-f3ebf63f2977
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 576d5b5a-6e54-4b85-a25d-5f142f3d458e
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config: {}
+        dataType: STRING
+        description: The Record Source (RSRC) describes the source of this data.
+        name: RSRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f7e015f7-b0f3-46ee-9a34-bc247c288d78
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6ab7f76c-b4d7-4c78-b30f-832a3a4ffac2
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config:
+          is_hk: true
+        dataType: STRING
+        description: ""
+        name: H_POLICY_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: dc20a59b-26bf-4202-b36d-6c06f34d6db4
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0dc71fec-f437-44e7-80df-9850f9679ab4
+          stepCounter: 16ceacda-9bce-4f1e-9634-42e56bce9319
+        config:
+          is_hd: true
+        dataType: STRING
+        description: ""
+        name: S_POLICY_HASHDIFF
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ed79f9f5-e100-4df8-8d87-fbe0343a6fe1
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: DVSTG_POH_POLICYHDR
+        join:
+          joinCondition: FROM {{ ref('WORK', 'DVSTG_POH_POLICYHDR') }} "DVSTG_POH_POLICYHDR"
+        name: SATV0_POH_POLICYHDR
+        noLinkRefs: []
+  name: SATV0_POH_POLICYHDR
+  overrideSQL: false
+  schema: ""
+  sqlType: dv:::8
+  type: sql
+  version: 1
+type: Node

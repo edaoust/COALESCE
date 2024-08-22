@@ -1,0 +1,137 @@
+fileVersion: 1
+id: d1f5ab9d-2135-49b8-a221-1df2c70b1148
+name: LINK_POLICY_PREM_VALUES
+operation:
+  config:
+    disable_hwm: true
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f6bf61f2-b2e6-4100-92c9-00e070fccc4a
+          stepCounter: d1f5ab9d-2135-49b8-a221-1df2c70b1148
+        config:
+          is_Link_hk: true
+        dataType: STRING
+        description: ""
+        name: L_POLICYHRDID_PPV_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: df5d8ba5-c728-485d-b831-562e3e09c14e
+                stepCounter: b6771cc7-83b3-4a92-a15a-bab07b79bfb7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 15cb592e-4cf2-4cd1-97ee-2438997c83be
+          stepCounter: d1f5ab9d-2135-49b8-a221-1df2c70b1148
+        config: {}
+        dataType: STRING
+        description: ""
+        name: H_POLICYHRDID_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 62522545-cdba-42f6-85ae-20a52988eec9
+                stepCounter: b6771cc7-83b3-4a92-a15a-bab07b79bfb7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6f71caca-18fe-4e84-b9ad-3a8c8082678a
+          stepCounter: d1f5ab9d-2135-49b8-a221-1df2c70b1148
+        config: {}
+        dataType: STRING
+        description: ""
+        name: H_PPV_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 03342f68-ad12-401c-946b-bbcda2610726
+                stepCounter: b6771cc7-83b3-4a92-a15a-bab07b79bfb7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a1fd0478-e0ac-4581-b137-d35f579bb041
+          stepCounter: d1f5ab9d-2135-49b8-a221-1df2c70b1148
+        config: {}
+        dataType: TIMESTAMP
+        description: The Load Date Timestamp (LDTS) describes when this data first arrived in the Data Warehouse.
+        name: LDTS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0f7c7384-ab70-4372-96b3-7a7cc7c69ffa
+                stepCounter: b6771cc7-83b3-4a92-a15a-bab07b79bfb7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 100fa7ff-9d9a-46da-aa6e-a00e565c2186
+          stepCounter: d1f5ab9d-2135-49b8-a221-1df2c70b1148
+        config: {}
+        dataType: STRING
+        description: The Record Source (RSRC) describes the source of this data.
+        name: RSRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9d508fdb-4c3d-4261-9a9b-3e1f5cd9e500
+                stepCounter: b6771cc7-83b3-4a92-a15a-bab07b79bfb7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 949d8f6f-ff70-4ab3-99ba-0a14f22128b0
+          stepCounter: d1f5ab9d-2135-49b8-a221-1df2c70b1148
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: PPV_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 091d0117-a431-4b90-9f7c-176124fc52d1
+                stepCounter: b6771cc7-83b3-4a92-a15a-bab07b79bfb7
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6df79570-a094-43e0-84b6-c13ab0eeebd5
+          stepCounter: d1f5ab9d-2135-49b8-a221-1df2c70b1148
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: PPV_POLICYHDRID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b2dd3b6d-5bb4-4897-a5ef-a1d8a7e57a9d
+                stepCounter: b6771cc7-83b3-4a92-a15a-bab07b79bfb7
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: DVSTG_POLICY_PREM_VALUES
+        join:
+          joinCondition: FROM {{ ref('WORK', 'DVSTG_POLICY_PREM_VALUES') }} "DVSTG_POLICY_PREM_VALUES"
+        name: LINK_POLICY_PREM_VALUES
+        noLinkRefs: []
+  name: LINK_POLICY_PREM_VALUES
+  overrideSQL: false
+  schema: ""
+  sqlType: dv:::7
+  type: sql
+  version: 1
+type: Node

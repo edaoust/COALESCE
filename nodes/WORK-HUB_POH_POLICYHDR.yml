@@ -1,0 +1,109 @@
+fileVersion: 1
+id: f65be074-2663-4ae5-b128-c91d27527f0a
+name: HUB_POH_POLICYHDR
+operation:
+  config:
+    disable_hwm: true
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a717b12f-57de-4a2f-b258-abc0ff3b8f05
+          stepCounter: f65be074-2663-4ae5-b128-c91d27527f0a
+        config: {}
+        dataType: VARCHAR(36)
+        description: ""
+        name: POH_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: de150809-fd4b-403d-8e55-e5c0448da503
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e7430f2d-c33b-4ec9-81b1-15cb937f58e6
+          stepCounter: f65be074-2663-4ae5-b128-c91d27527f0a
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: POH_POLICYNUMBER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e161208e-9349-452b-bf92-35270029d10a
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fa85072a-77f4-48d5-9c12-3c2d94ed6895
+          stepCounter: f65be074-2663-4ae5-b128-c91d27527f0a
+        config:
+          is_Hub_hk: true
+        dataType: STRING
+        description: ""
+        name: H_POLICY_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: dc20a59b-26bf-4202-b36d-6c06f34d6db4
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: dbb04fe1-ad09-490f-87e9-ab398f3e0bdd
+          stepCounter: f65be074-2663-4ae5-b128-c91d27527f0a
+        config: {}
+        dataType: TIMESTAMP
+        description: The Load Date Timestamp (LDTS) describes when this data first arrived in the Data Warehouse.
+        name: LDTS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a04365b7-833a-4f39-a4ed-f3ebf63f2977
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 97d03ced-bfe0-4a6a-a22d-ea4c07c45136
+          stepCounter: f65be074-2663-4ae5-b128-c91d27527f0a
+        config: {}
+        dataType: STRING
+        description: The Record Source (RSRC) describes the source of this data.
+        name: RSRC
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f7e015f7-b0f3-46ee-9a34-bc247c288d78
+                stepCounter: 3fc890cc-a300-4598-b5be-41ca0ce57422
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: DVSTG_POH_POLICYHDR
+        join:
+          joinCondition: FROM {{ ref('WORK', 'DVSTG_POH_POLICYHDR') }} "DVSTG_POH_POLICYHDR"
+        name: HUB_POH_POLICYHDR
+        noLinkRefs: []
+  name: HUB_POH_POLICYHDR
+  overrideSQL: false
+  schema: ""
+  sqlType: dv:::6
+  type: sql
+  version: 1
+type: Node
